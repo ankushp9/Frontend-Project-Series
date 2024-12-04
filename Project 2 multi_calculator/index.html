@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi Calculator</h1>
+        <div class="mode-toggle">
+            <button id="toggleMode">Night Mode</button>
+        </div>
+        <!-- <div class="container"> -->
+            <!-- <h1>Multi Calculator</h1> -->
+            <!-- Calculators code -->
+        </div>
+        
+
+        <!-- Age Calculator -->
+        <div class="calculator" id="ageCalculator">
+            <h2>Age Calculator</h2>
+            <label for="birthday">Enter your date of birth:</label>
+            <input type="date" id="birthday">
+            <button id="btnAge">Calculate Age</button>
+            <p id="resultAge">Your age will appear here.</p>
+        </div>
+
+        <!-- Simple Calculator -->
+        <div class="calculator" id="simpleCalculator">
+            <h2>Simple Calculator</h2>
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="number" id="num2" placeholder="Enter second number">
+            <select id="operation">
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+            <button id="btnSimpleCalc">Calculate</button>
+            <p id="resultSimpleCalc">Result will appear here.</p>
+        </div>
+
+        <!-- BMI Calculator -->
+        <div class="calculator" id="bmiCalculator">
+            <h2>BMI Calculator</h2>
+            <input type="number" id="weight" placeholder="Enter weight in kg">
+            <input type="number" id="height" placeholder="Enter height in meters">
+            <button id="btnBMI">Calculate BMI</button>
+            <p id="resultBMI">Your BMI will appear here.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

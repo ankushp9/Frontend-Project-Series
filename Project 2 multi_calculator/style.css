@@ -1,0 +1,173 @@
+/* General Body Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6); 
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+ /* Container  */
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #cbd5e1;
+    font-size: 1.8em;
+}
+
+/* Calculator Card Styling */
+.calculator {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-size: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8); 
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    transform: translateY(-2px);
+}
+
+/* Result Box */
+#resultAge, #resultSimpleCalc, #resultBMI {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Night Mode Styling */
+body.night-mode {
+    background: linear-gradient(135deg, #000000, #2c2c2c); 
+    color: #d3d3d3;
+}
+
+body.night-mode .container {
+    background: rgba(40, 40, 40, 0.9);
+}
+
+body.night-mode .calculator {
+    background: rgba(50, 50, 50, 0.8);
+    border: 1px solid rgba(80, 80, 80, 0.6);
+}
+
+body.night-mode input, 
+body.night-mode button, 
+body.night-mode #resultAge, 
+body.night-mode #resultSimpleCalc, 
+body.night-mode #resultBMI {
+    background: rgba(70, 70, 70, 0.9);
+    color: #ffffff;
+}
+
+body.night-mode button {
+    background: linear-gradient(135deg, #4a4a4a, #3a3a3a); 
+}
+
+body.night-mode button:hover {
+    background: linear-gradient(135deg, #3a3a3a, #4a4a4a);
+}
+/* General Body Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6); 
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%; 
+    box-sizing: border-box;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Mode Toggle Button Styling */
+.mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#toggleMode {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8); 
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+#toggleMode:hover {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    transform: translateY(-2px);
+}
+
+/* Night Mode Styling */
+body.night-mode {
+    background: linear-gradient(135deg, #000000, #2c2c2c); 
+    color: #d3d3d3;
+}
+
+/* Centered Container for Content */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+}
