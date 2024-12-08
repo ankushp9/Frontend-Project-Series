@@ -35,3 +35,15 @@ Follow these steps to run the project locally:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-repository/random-color-generator.git
+
+## Output
+
+## Output
+
+![App Screenshot 1](./Screenshot%20from%202024-12-08%2018-10-10.png)
+
+![App Screenshot](./Screenshot%20from%202024-12-08%2018-10-45.png)
+
+
+
+
